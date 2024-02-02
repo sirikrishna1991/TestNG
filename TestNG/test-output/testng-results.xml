@@ -1,83 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-01T14:58:45 IST" name="Loan Diprt" finished-at="2024-02-01T14:58:45 IST" duration-ms="38">
+  <suite started-at="2024-02-02T11:19:26 IST" name="Default suite" finished-at="2024-02-02T11:19:26 IST" duration-ms="49">
     <groups>
+      <group name="smoke">
+        <method signature="TestNG3.WeblogincarLoan()[pri:0, instance:TestNG_Basics.TestNG3@a3d8174]" name="WeblogincarLoan" class="TestNG_Basics.TestNG3"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-02-01T14:58:45 IST" name="Personal Loan" finished-at="2024-02-01T14:58:45 IST" duration-ms="38">
-      <class name="TestNG_Basics.TestNG_Basics">
-        <test-method signature="Demo()[pri:0, instance:TestNG_Basics.TestNG_Basics@16a0ee18]" started-at="2024-02-01T14:58:45 IST" name="Demo" finished-at="2024-02-01T14:58:45 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method is-config="true" signature="After()[pri:0, instance:TestNG_Basics.TestNG_Basics@16a0ee18]" started-at="2024-02-01T14:58:45 IST" name="After" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- After -->
-      </class> <!-- TestNG_Basics.TestNG_Basics -->
-      <class name="TestNG_Basics.Basic2">
-        <test-method is-config="true" signature="BFsuite()[pri:0, instance:TestNG_Basics.Basic2@47faa49c]" started-at="2024-02-01T14:58:45 IST" name="BFsuite" finished-at="2024-02-01T14:58:45 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BFsuite -->
-        <test-method is-config="true" signature="prerequiste()[pri:0, instance:TestNG_Basics.Basic2@47faa49c]" started-at="2024-02-01T14:58:45 IST" name="prerequiste" finished-at="2024-02-01T14:58:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequiste -->
-        <test-method signature="Basic()[pri:0, instance:TestNG_Basics.Basic2@47faa49c]" started-at="2024-02-01T14:58:45 IST" name="Basic" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Basic -->
-        <test-method signature="Demo1()[pri:0, instance:TestNG_Basics.Basic2@47faa49c]" started-at="2024-02-01T14:58:45 IST" name="Demo1" finished-at="2024-02-01T14:58:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo1 -->
-      </class> <!-- TestNG_Basics.Basic2 -->
+    <test started-at="2024-02-02T11:19:26 IST" name="Default test" finished-at="2024-02-02T11:19:26 IST" duration-ms="49">
       <class name="TestNG_Basics.TestNG3">
-        <test-method signature="Mobileloginloan()[pri:0, instance:TestNG_Basics.TestNG3@28f2a10f]" started-at="2024-02-01T14:58:45 IST" name="Mobileloginloan" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
+        <test-method signature="Mobileloginloan()[pri:0, instance:TestNG_Basics.TestNG3@a3d8174]" started-at="2024-02-02T11:19:26 IST" name="Mobileloginloan" finished-at="2024-02-02T11:19:26 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Mobileloginloan -->
-        <test-method signature="WeblogincarLoan()[pri:0, instance:TestNG_Basics.TestNG3@28f2a10f]" started-at="2024-02-01T14:58:45 IST" name="WeblogincarLoan" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
+        <test-method signature="WeblogincarLoan()[pri:0, instance:TestNG_Basics.TestNG3@a3d8174]" started-at="2024-02-02T11:19:26 IST" name="WeblogincarLoan" finished-at="2024-02-02T11:19:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WeblogincarLoan -->
-        <test-method signature="loginAPIloan()[pri:0, instance:TestNG_Basics.TestNG3@28f2a10f]" started-at="2024-02-01T14:58:45 IST" name="loginAPIloan" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
+        <test-method signature="loginAPIloan()[pri:0, instance:TestNG_Basics.TestNG3@a3d8174]" started-at="2024-02-02T11:19:26 IST" name="loginAPIloan" finished-at="2024-02-02T11:19:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAPIloan -->
       </class> <!-- TestNG_Basics.TestNG3 -->
-      <class name="TestNG_Basics.TestNG4">
-        <test-method is-config="true" signature="BFtest()[pri:0, instance:TestNG_Basics.TestNG4@7fee8714]" started-at="2024-02-01T14:58:45 IST" name="BFtest" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BFtest -->
-        <test-method signature="MobileloginAPIHomeloan()[pri:0, instance:TestNG_Basics.TestNG4@7fee8714]" started-at="2024-02-01T14:58:45 IST" name="MobileloginAPIHomeloan" finished-at="2024-02-01T14:58:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileloginAPIHomeloan -->
-        <test-method is-config="true" signature="BFtest()[pri:0, instance:TestNG_Basics.TestNG4@7fee8714]" started-at="2024-02-01T14:58:45 IST" name="BFtest" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BFtest -->
-        <test-method signature="MobileloginHomeLoan()[pri:0, instance:TestNG_Basics.TestNG4@7fee8714]" started-at="2024-02-01T14:58:45 IST" name="MobileloginHomeLoan" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileloginHomeLoan -->
-        <test-method signature="MobileloginHomeloan()[pri:0, instance:TestNG_Basics.TestNG4@7fee8714]" started-at="2024-02-01T14:58:45 IST" name="MobileloginHomeloan" finished-at="2024-02-01T14:58:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileloginHomeloan -->
-        <test-method is-config="true" signature="BFtest()[pri:0, instance:TestNG_Basics.TestNG4@7fee8714]" started-at="2024-02-01T14:58:45 IST" name="BFtest" finished-at="2024-02-01T14:58:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BFtest -->
-        <test-method is-config="true" signature="AFsuite()[pri:0, instance:TestNG_Basics.TestNG4@7fee8714]" started-at="2024-02-01T14:58:45 IST" name="AFsuite" finished-at="2024-02-01T14:58:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AFsuite -->
-      </class> <!-- TestNG_Basics.TestNG4 -->
-    </test> <!-- Personal Loan -->
-  </suite> <!-- Loan Diprt -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestNG3 {
 
-	@Test
+	@Test(groups = {"smoke"})
 	public void WeblogincarLoan()
 	{
 		System.out.println("weblogincar");

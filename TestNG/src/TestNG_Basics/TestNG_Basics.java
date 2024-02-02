@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class TestNG_Basics {
 
-	@Test
+	@Test(groups = {"smoke"})
 	
 	public void Demo() {
 		
